@@ -140,6 +140,7 @@ dfn {
 b,
 strong {
   font-weight: bolder;
+  text-align: justify;
 }
 small {
   font-size: 80%;

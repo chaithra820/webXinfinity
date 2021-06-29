@@ -1186,7 +1186,7 @@ a.play-video::after {
 
 .shape-num .shape-loc:first-child:before {
     content: '';
-    background: url(../images/shape/shape-1.svg);
+  
     background-size: auto;
     position: absolute;
     height: 150px;
@@ -1199,7 +1199,7 @@ a.play-video::after {
 
 .shape-num .shape-loc:last-child:after {
     content: '';
-    background: url(../images/shape/shape-2.svg);
+    
     background-size: auto;
     position: absolute;
     height: 150px;
@@ -1247,7 +1247,9 @@ a.play-video::after {
 
 .service-section:before {
     content: "";
-    background: url(../images/shape/dot-shape.png) #d7f0fd;
+   background: #56ccf2;
+  background: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #56ccf2, #2f80ed); 
     position: absolute;
     height: 400px;
     right: 0;
@@ -1277,10 +1279,11 @@ a.play-video::after {
 }
 
 .service-section .s-block {
-    background: url(../images/shape/shape-7.svg) #fff;
-    background-size: 180px;
-    background-position: top right;
-    background-repeat: no-repeat
+   background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
 }
 
 .s-card-icon {
@@ -1406,10 +1409,8 @@ a.play-video::after {
     height: 100px;
     float: left;
     padding: 15px;
-    background: #fff;
-    border-radius: 8px 40px 8px 40px;
-    -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, .059), 0 8.2px 8.9px -30px rgba(0, 0, 0, .071), 0 25px 40px -30px rgba(0, 0, 0, .2);
-    box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, .059), 0 8.2px 8.9px -30px rgba(0, 0, 0, .071), 0 25px 40px -30px rgba(0, 0, 0, .2)
+    
+   
 }
 
 .statnumb {
@@ -1633,7 +1634,7 @@ a.play-video::after {
     box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, .059), 0 8.2px 8.9px -30px rgba(0, 0, 0, .071), 0 25px 40px -30px rgba(0, 0, 0, .2)
 }
 
-.cd1 {
+/*.cd1 {
     background: #70e4e8
 }
 
@@ -1679,7 +1680,7 @@ a.play-video::after {
 
 .cd12 {
     background: #7affdb
-}
+}*/
 
 .testinomial-section {
     background: url(../images/shape/shape-9.svg) #fff;
@@ -6545,10 +6546,10 @@ html .pb140 {
 }
 
 .bg-gradient {
-    background: #c7ecff;
-    background: -moz-linear-gradient(top, #c7ecff 0, #f9efff 100%);
-    background: -webkit-linear-gradient(top, #c7ecff 0, #f9efff 100%);
-    background: linear-gradient(to bottom, #c7ecff 0, #f9efff 100%)
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .bg-gradient1 {

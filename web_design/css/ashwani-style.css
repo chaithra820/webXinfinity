@@ -186,7 +186,7 @@ h2 {
   font-size: 38px;
   line-height: 48px;
   letter-spacing: -0.1px;
-  color: #444;
+  color: #fff;
   font-family: "Muli", sans-serif;
 }
 
@@ -231,7 +231,7 @@ h6 {
 
 p {
   font-size: 14px;
-  color: #848484;
+  color: #000;
   line-height: 22px;
   font-weight: 300;
   text-align: justify;
@@ -393,7 +393,9 @@ p {
   border-radius: 3px;
   border: 2px solid #fff;
   color: #fff;
-  background-color: #0e9fbc;
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #56ccf2, #2f80ed); 
   cursor: pointer;
   display: inline-block;
   outline: 0;
@@ -449,7 +451,11 @@ p {
 }
 
 .home-banner {
-  background: #0e9fbc;
+ background: #7474BF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   /* background-image: url("../image/backbanner.png"); */
   margin-top: 100px;
 }
@@ -919,7 +925,9 @@ p {
 }
 
 .nav-link.blue-button {
-  background: #0e9dbb;
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #56ccf2, #2f80ed); 
   border-radius: 5px;
   border: 0;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -3794,7 +3802,9 @@ form {
   /* box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); */
 }
 .btn {
-  background: transparent;
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #56ccf2, #2f80ed); 
   border: 2px solid #fff;
   color: #fff;
   font-weight: bold;
