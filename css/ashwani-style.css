@@ -127,7 +127,7 @@
 body {
   font-family: "Muli", sans-serif;
   font-size: 14px;
-  color: #848484;
+  color: #000000;
   background-color: #f1f5f7;
 }
 
@@ -212,7 +212,7 @@ h6 {
   font-size: 18px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #0e9fbc;
+  color: #56ccf2;
   font-weight: bold;
   font-family: serif;
 }
@@ -231,7 +231,7 @@ h6 {
 
 p {
   font-size: 14px;
-  color: #848484;
+  color:#000000;
   line-height: 22px;
   font-weight: 300;
   text-align: justify;
@@ -672,7 +672,7 @@ p {
 }
 
 .bg-428 {
-  background-color: #0e9fbc !important;
+  background-color:#56ccf2!important;
 }
 
 .bg-grey {
@@ -814,7 +814,7 @@ p {
 }
 
 .h-bar ul li a {
-  color: #616161;
+  color:  #000000;
   font-size: 12px;
   margin-left: 5px;
   padding-left: 10px;
@@ -848,7 +848,7 @@ p {
 
 .nav-link {
   display: inline-block;
-  color: #616161;
+  color:  #000000;
   font-size: 17px;
   text-transform: capitalize;
   margin-right: 35px;
@@ -947,7 +947,7 @@ p {
 .fa-phone,
 .fa-skype,
 .fa-envelope {
-  color: #0e9fbc;
+  color: #56ccf2;
   margin-right: 5px;
 }
 
@@ -2051,7 +2051,7 @@ input[type="file"]::-webkit-file-upload-button {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: serif;
-  color: #0e9fbc;
+  color: #56ccf2;
   font-size: 18px;
 }
 
@@ -2329,30 +2329,16 @@ input[type="file"]::-webkit-file-upload-button {
   background: rgb(0, 0, 0, 0);
   background: -moz-linear-gradient(
     top,
-    rgba(66, 133, 244, 0.8) 0%,
-    rgba(66, 133, 244, 0.1) 24%,
-    rgba(239, 239, 239, 0) 26%,
-    rgba(239, 239, 239, 0) 75%,
-    rgba(66, 133, 244, 0.1) 76%,
-    rgba(66, 133, 244, 0.8) 100%
+    #56ccf2
   );
   background: -webkit-linear-gradient(
     top,
-    rgba(66, 133, 244, 0.8) 0%,
-    rgba(66, 133, 244, 0.1) 24%,
-    rgba(239, 239, 239, 0) 26%,
-    rgba(239, 239, 239, 0) 75%,
-    rgba(66, 133, 244, 0.1) 76%,
-    rgba(66, 133, 244, 0.8) 100%
+    #56ccf2
   );
   background: linear-gradient(
     to bottom,
-    rgb(14 159 188) 0%,
-    rgba(66, 133, 244, 0.1) 24%,
-    rgba(239, 239, 239, 0) 26%,
-    rgba(239, 239, 239, 0) 75%,
-    rgba(66, 133, 244, 0.1) 76%,
-    rgb(14 159 188) 100%
+    
+   #56ccf2
   );
 }
 
@@ -2602,12 +2588,12 @@ input[type="file"]::-webkit-file-upload-button {
 
 .column li a,
 .column li i {
-  color: #848484;
+  color:  #000000;
   font-weight: bold;
 }
 
 .column li .fa-angle-right {
-  color: #848484;
+  color:  #000000;
 }
 
 /* .fa-angle-right:hover::before,.fa-angle-left:hover::before{
@@ -2778,7 +2764,9 @@ input[type="file"]::-webkit-file-upload-button {
   top: 84px;
   right: 0;
   bottom: 0;
-  background-color: #0e9dbb;
+  background-color:   #56ccf2;
+     background-color: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+     background-color: linear-gradient(to left, #56ccf2, #2f80ed); 
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 2147483647;
@@ -3321,7 +3309,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .first-level p a {
-  color: #848484;
+  color:  #000000;
 }
 
 .first-level p a:hover {
@@ -3701,7 +3689,9 @@ input[type="number"]::-webkit-outer-spin-button {
   min-height: auto;
 }
 a {
-  color: #0e9fbc;
+  color:  #56ccf2;
+   color: -webkit-linear-gradient(to left, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+   color: linear-gradient(to left, #56ccf2, #2f80ed); 
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -3859,7 +3849,8 @@ form {
   font-size: 31px;
   font-family: 'Roboto';
   font-weight: bold;
-  color: #0e9fbc;
+  color:  #56ccf2;
+ 
 }
 .mb-0, .my-0 {
   margin-bottom: 0 !important;
